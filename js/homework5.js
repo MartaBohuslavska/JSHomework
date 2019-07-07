@@ -29,6 +29,18 @@ citySorted = Object.keys(city).sort(function(a, b) {
 console.log(citySorted[0]);
 
 
+// the third way
+var max = 0;
+var maxCity = '';
+for (var key in city) {
+  if(city[key] > max) {
+    max = city[key];
+    maxCity = key;
+  }
+}
+console.log(maxCity);
+
+
 // task2
 class Worker {
   constructor(name, surname, rate, days){
