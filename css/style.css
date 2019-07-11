@@ -1,0 +1,10 @@
+* {
+  padding: 10px;
+}
+
+.btn-calc {
+  background-color: inherit;
+  border: none;
+  float: left;
+  margin-right: 30px;
+}
